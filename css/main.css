@@ -1,0 +1,132 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 15px 70px;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+
+.logo{
+    
+    display: block;
+    float: left;
+
+}
+
+.header_menu {   
+    margin-left: 130px;    
+    float: left;     
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.header_menu a{
+    text-decoration: none;
+    color: #0066CC;
+}
+.header_menu li{
+    padding-top: 10px;
+    margin-left: 50px; 
+    display: inline-block;
+}
+.sign_in{
+    color: #0066CC;
+    border: 2px solid #0066CC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    float: right;
+    padding: 15px 20px;
+    margin-top: -5px;            
+}
+.banner{
+    display: block;
+    width: 1280px;
+    height: 200px;
+    background-image: url(../img/Bg_01.png);
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.colored{
+    color: #0066CC
+}
+nav span{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+nav img:first-child{
+    margin: 20px 35px 20px 70px
+}
+.arrow0{
+    margin-right: 30px;
+}
+.arrow1{
+    margin: 0px 30px;
+}
+main{
+    display: block;
+    height: 530px;
+}
+footer{
+    display: block;
+    height: 220px;
+    background: linear-gradient(268.12deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0.08) 100%);
+}
+footer ul{
+    list-style-type: none;
+}
+.footer_sections{
+    display: flex;
+    
+}
+footer ul:first-child{
+    margin-left: 35px;
+}
+.footer_sections li span:hover{
+    color: blue;
+}
+.footer_sections p{
+    display: block;
+    height: 70px;
+    width: 230px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.section_name{
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer_sections span:not(.section_name){
+    font-weight: 300;
+    font-size: 14px;
+}
+.menu_item{
+    margin-top: 10px;
+}
+.copyright{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.copyright span{
+    color: rgba(0, 0, 0, 0.48);
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 670px;
+    
+}
+.images{
+    margin-left: 440px;
+}
+.images img{
+    margin-left: 10px;
+}
